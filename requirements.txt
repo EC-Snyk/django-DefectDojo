@@ -35,13 +35,13 @@ mysqlclient==2.0.1
 pandas>=0.25
 xlrd>=1.0.0
 pdfkit==0.6.1
-Pillow==7.2.0  # required by django-imagekit
+Pillow==9.2.0  # required by django-imagekit
 psycopg2-binary==2.8.5
 cryptography==2.9.2
 python-dateutil==2.8.1
 python-nmap==0.6.1
 pytz==2020.1
-redis==3.5.3
+redis==4.3.6
 requests>=2.22.0
 sqlalchemy  # Required by Celery broker transport
 supervisor==4.2.0
@@ -60,3 +60,4 @@ google-auth-oauthlib==0.4.1
 drf_yasg==1.17.1
 jsonlines==1.2.0  # requred by yarn audit parser
 django-saml2-auth==2.2.1
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
